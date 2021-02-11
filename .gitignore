@@ -44,3 +44,6 @@ yarn-debug.log*
 !/tmp/cache/
 /tmp/cache/*
 !/tmp/cache/.keep
+
+# ignore vendor/bundle
+vendor/bundle
