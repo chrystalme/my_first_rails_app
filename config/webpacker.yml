@@ -5,13 +5,12 @@ default: &default
   source_entry_path: packs
   public_root_path: public
   public_output_path: packs
-  cache_path: tmp/cache/webpacker
-  resolved_paths: ['app/assets']  
+  cache_path: tmp/cache/webpacker  
   webpack_compile_output: true
 
   # Additional paths webpack should lookup modules
   # ['app/assets', 'engine/foo/app/assets']
-  additional_paths: []
+  additional_paths: ['config/webpack']
 
   # Reload manifest.json on all requests so we reload latest compiled packs
   cache_manifest: true
